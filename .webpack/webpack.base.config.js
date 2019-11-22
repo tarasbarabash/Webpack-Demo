@@ -84,7 +84,6 @@ module.exports = {
       inject: true
     }),
     new CopyWebpackPlugin([
-      { from: `${PATHS.src}/img`, to: `${PATHS.build}/img` },
       { from: `${PATHS.src}/assets`, to: `${PATHS.build}/assets` }
     ]),
     new WebpackManifestPlugin({
@@ -98,7 +97,8 @@ module.exports = {
       icons: [
         {
           src: path.resolve("./src/assets/icons/icon.png"),
-          sizes: [72, 96, 128, 144, 152, 192, 384, 512]
+          sizes: [72, 152, 384, 512],
+          destination: "assets/icons/"
         }
       ]
     }),

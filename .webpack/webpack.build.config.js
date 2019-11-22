@@ -3,7 +3,7 @@ const baseConfig = require("./webpack.base.config");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 
 const prodConfig = merge(baseConfig, {
-  mode: "development",
+  mode: "production",
   plugins: [new CleanWebpackPlugin()]
 });
 
