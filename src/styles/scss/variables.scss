@@ -1,0 +1,9 @@
+$colors: (
+  font-color: #f1faee,
+  bg-color: #1d3557,
+  accent-color: #457b9d
+);
+
+@function getColor($name) {
+  @return map-get($colors, $name);
+}

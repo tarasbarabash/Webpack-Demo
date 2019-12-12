@@ -1,3 +1,32 @@
 @import "./variables.scss";
-@import "./reset.scss";
 @import "./fonts.scss";
+@import "./mixins.scss";
+
+html {
+  font-size: calc(20pt + 2vw);
+}
+
+body {
+  font-family: "Roboto", "Arial Narrow", Arial, sans-serif;
+  margin: 0;
+  color: getColor(font-color);
+  max-width: 100%;
+}
+
+section {
+  background: getColor(bg-color);
+  min-height: 100vh;
+  @include flex-center(row);
+  max-width: 100%;
+
+  h1 {
+    font-size: 1rem;
+
+    span {
+      border: 3px solid getColor(accent-color);
+      padding: 8px;
+      color: getColor(accent-color);
+      border-radius: 8px;
+    }
+  }
+}
