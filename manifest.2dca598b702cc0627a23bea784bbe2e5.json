@@ -1,0 +1,32 @@
+{
+  "icons": [
+    {
+      "src": "assets/icons/icon_512x512.42ab57244f5fe1fe8ea5a9eb4a8475eb.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_384x384.35e48f6dbc724a71252596e8b6d37578.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_152x152.257f2237ca926b529202cb5e90f0634c.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/icon_72x72.340e09b3307a2837a7b84eec6f5dd838.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "name": "Webpack-Demo",
+  "short_name": "Webpack",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "index.html",
+  "description": "Webpack app",
+  "background_color": "#fff",
+  "theme_color": "#fff"
+}
