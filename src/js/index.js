@@ -1,4 +1,15 @@
-/*
- * Main js file
- * If you'd like to make any (deleting, renaming) manipulations, don't forget to update an import in "../index.js"
- */
+import React from "react";
+import ReactDOM from "react-dom";
+import "../styles/scss/main.scss";
+
+class App extends React.Component {
+    render() {
+        return (
+            <section>
+                <h1>Webpack <span>React Template</span></h1>
+            </section>
+        )
+    }
+}
+
+ReactDOM.render(<App />, document.getElementById("app"))

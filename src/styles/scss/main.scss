@@ -17,14 +17,17 @@ section {
   background: getColor(bg-color);
   min-height: 100vh;
   @include flex-center(row);
-  max-width: 100%;
 
   h1 {
     font-size: 1rem;
+    display: flex;
+    align-items: center;
 
     span {
       border: 3px solid getColor(accent-color);
       padding: 8px;
+      margin: 0.5em;
+      font-size: 0.5em;
       color: getColor(accent-color);
       border-radius: 8px;
     }

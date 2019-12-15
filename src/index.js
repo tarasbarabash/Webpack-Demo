@@ -1,5 +1,4 @@
 import "./js/index";
-import "./styles/scss/main.scss";
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", () => {
